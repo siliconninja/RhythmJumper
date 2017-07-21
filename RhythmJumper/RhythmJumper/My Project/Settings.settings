@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="intDifficulty" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="intIsFormLoaded" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="boolListenMode" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="intHighScoreEZ" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="intHighScoreINT" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="intHighScoreHRD" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="strEZName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Walker</Value>
+    </Setting>
+    <Setting Name="strINTName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Skipper</Value>
+    </Setting>
+    <Setting Name="strHRDName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Jumper</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
