@@ -24,7 +24,7 @@
 
     ' start song at 3 seconds
     ' end at 93 (1:33)
-    Dim dblArrEZSongTimes() = {9, 12.5, 14, 17.5, 20, 23, 25.5, 28, 30, 32, 33.5, 35, 37, 38.5, 40, 43, 45, 48, 52, 53.5, 58, 59, 61, 66, 69, 71.5, 74, 77, 78.5, 80, 84, 85.5, 91, 93}
+    Dim dblArrEZSongTimes() = {2, 93}
     ' Use 50ms intervals only!
     ' TODO: convert all of the numbers to milliseconds < DONE
 
