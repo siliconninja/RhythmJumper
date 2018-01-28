@@ -53,11 +53,11 @@ In the coming days, possibly.
 
 ### Game Soundtrack Selections/Songs Used
 
-#### Easy Mode
+#### Easy Mode (edit: removed)
 
-Time Leap by Aero Chord
+Formerly Time Leap by Aero Chord
 
-(non-commercial license by NCS (youtube.com/user/NoCopyrightSounds/about), original upload: soundcloud.com/aerochordmusic/time-leap-original-mix-1)
+(custom license by NCS (youtube.com/user/NoCopyrightSounds/about), original upload: soundcloud.com/aerochordmusic/time-leap-original-mix-1)
 
 https://www.youtube.com/watch?v=beDFafObkFw
 
