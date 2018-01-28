@@ -1,26 +1,20 @@
 NOTE (PLEASE READ THE FOLLOWING TEXT AS IT APPLIES TO YOUR USE OF SPECIFIC FILES FOUND IN THIS REPOSITORY THAT HAVE BEEN REDISTRIBUTED FROM OTHER SOURCES):
 
 The following license (Mozilla Public License Version 2.0) applies to all files in this repository except for the following:
-https://github.com/siliconninja/RhythmJumper/blob/master/RhythmJumper/RhythmJumper/Resources/TimeLeap_EZ.wav (referred to as "TimeLeap_EZ.wav"),
 https://github.com/siliconninja/RhythmJumper/blob/master/RhythmJumper/RhythmJumper/Resources/FinalBattle_INT-2.wav (referred to as "FinalBattle_INT-2.wav"),
 and https://github.com/siliconninja/RhythmJumper/blob/master/RhythmJumper/RhythmJumper/Resources/Kurorak_Artha_HRD.wav (referred to as "Kurorak_Artha_HRD.wav").
-The TimeLeap_EZ.wav and FinalBattle_INT-2.wav files are each licensed under a custom non-commercial license found in the file LICENSE.songs.
+
+The FinalBattle_INT-2.wav file is licensed under a custom non-commercial license found in the file LICENSE.songs.
 The license for the redistributed file Kurorak_Artha_HRD.wav is licensed under CC-BY 3.0.
 To maintain compatibility with the original license of the song, the redistributed version in this repository (Kurorak_Artha_HRD.wav) will be licensed under the same license (CC-BY 3.0) and will be found in the file LICENSE.songs.
+
 The license listed in the file LICENSE on this repository (Mozilla Public License Version 2.0) found at https://github.com/siliconninja/RhythmJumper/blob/master/LICENSE does not apply to the following files:
-TimeLeap_EZ.wav, FinalBattle_INT-2.wav, Kurorak_Artha_HRD.wav.
+FinalBattle_INT-2.wav, Kurorak_Artha_HRD.wav.
 
 ==========================
 
-TimeLeap_EZ.wav Credits:
-
-Time Leap by Aero Chord
-
-(non-commercial license by NCS (youtube.com/user/NoCopyrightSounds/about), original upload: soundcloud.com/aerochordmusic/time-leap-original-mix-1)
-
-https://www.youtube.com/watch?v=beDFafObkFw
-
-==========================
+Another note: TimeLeap_EZ.wav was used originally in development but cannot be included in the repository due to NCS only allowing use
+of their content on YouTube videos/Twitch livestreams.
 
 TimeLeap_EZ.wav License (found at https://youtube.com/user/NoCopyrightSounds/about):
 
