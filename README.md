@@ -55,7 +55,7 @@ In the coming days, possibly.
 
 #### Easy Mode (edit: removed)
 
-Formerly Time Leap by Aero Chord
+Formerly: Time Leap by Aero Chord
 
 (custom license by NCS (youtube.com/user/NoCopyrightSounds/about), original upload: soundcloud.com/aerochordmusic/time-leap-original-mix-1)
 
