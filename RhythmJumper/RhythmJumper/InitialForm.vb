@@ -36,7 +36,9 @@ Public Class InitialForm
                         "Hard: Kurorak - Artha: https://youtu.be/5M61dsEQ1f0" + Environment.NewLine +
                         "Modified (trimmed length of song), song licensed under CC-BY 3.0" + Environment.NewLine +
                         "Easter Egg 2: Final Battle by Waterflame" + Environment.NewLine +
-                        "(non-commercial license, credit: www.youtube.com/waterflame89)", "Credits", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                        "(non-commercial license, credit: www.youtube.com/waterflame89)" + Environment.NewLine +
+                        "For full licensing information please find the LICENSE and LICENSE.songs in the program resources folder, or visit:" + Environment.NewLine +
+                        "https://raw.githubusercontent.com/siliconninja/RhythmJumper/master/LICENSE", "Credits", MessageBoxButtons.OK, MessageBoxIcon.Information)
     End Sub
 
     Private Sub radEasy_CheckedChanged(sender As Object, e As EventArgs) Handles radEasy.CheckedChanged
