@@ -34,6 +34,49 @@ Run `mono RhythmJumperLinux.exe` in a terminal window.
 ### Windows
 The Windows version is located in the `RhythmJumper` directory. It uses WinForms and Visual Studio .NET Framework 4.8.
 
+#### Download and Install Dependencies
+
+You will need to download and install Visual Studio 2022 Community edition from here: https://visualstudio.microsoft.com/
+
+Scroll to the purple infinity sign, then click "Download Visual Studio" > "Community 2022".
+
+Choose to install the .NET Developer Tools for version 4.8. Don't check or uncheck any other boxes.
+
+To make it faster to install, allow the installer to install while downloading.
+
+#### Opening and Compiling RhythmJumper
+
+Once Visual Studio has installed, `git clone` this repository and open `RhythmJumper\RhythmJumper.sln` in a file browser.
+
+Visual Studio will now open with the `RhythmJumper` project.
+
+To compile the code, simply click the Play button at the top.
+
+This will allow you to make modifications to the code and then play the game!
+
+You can also debug your code by setting breakpoints inside of Visual Studio.
+Because of this, what you're doing in Visual Studio is essentially called compiling in "Debug" mode.
+
+#### Publishing a modified RhythmJumper
+
+To publish a new version of RhythmJumper, you will want to build a release version. (This version has debugging information removed to make it more secure.)
+
+To build a release version, go to the dropdown next to the Play button that says "Debug" and change it to "Release".
+
+Finally, go to `Build > Rebuild All...` and then you should see the release EXE file was built in the following path:
+
+`(wherever you cloned RhythmJumper)\RhythmJumper\RhythmJumper\bin\Release\RhythmJumper.exe`
+
+You can then run that EXE file or share that EXE file with whoever you want.
+
+#### Going back to debugging your code
+
+Note that clicking the Play button on the Release target in Visual Studio is not optimal, as you cannot debug your code.
+
+Go back by clicking the "Release" dropdown near the Play button, and click "Debug".
+
+Then click the Play button to run/debug RhythmJumper in Visual Studio.
+
 ### Linux
 The (alpha) Linux version is located in the `RhythmJumper-Linux` directory. 
 
