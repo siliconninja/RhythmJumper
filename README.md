@@ -1,28 +1,69 @@
 # RhythmJumper
 
-A rhythm-based game where you jump over obstacles in time to 3 selected songs.
+A rhythm-based game where you jump over obstacles in time to ~~3~~ 2... rhythmic... songs (still finding a third one).
 
 It includes easter eggs & high score functionality.
 
 This is my final project for a computer science class that teaches Visual Basic .NET.
 
-License: MPLv2.
+I decided to play around with MonoDevelop in 2022 to revitalize the project by testing out Linux and C# support (through GTK), because why not?
+
+[View all licensing information](LICENSE)
+
+# Play the Game (How to Run)
+Download from the Releases tab.
+
+### Windows
+First download `RhythmJumper.exe` in the Releases tab.
+
+Then run it.
+
+### Linux
+The (alpha) Linux version must be run through Mono.
+
+First download `RhythmJumperLinux.exe` in the Releases tab.
+
+To install the dependencies, run:
+
+* Fedora 35 (tested): `sudo dnf install mono-complete`
+* Ubuntu 22.10 (Kinetic, untested): `sudo apt install mono-complete`
+
+Run `mono RhythmJumperLinux.exe` in a terminal window.
+
+## How to compile from source
+### Windows
+The Windows version is located in the `RhythmJumper` directory. It uses WinForms and Visual Studio .NET Framework 4.8.
+
+### Linux
+The (alpha) Linux version is located in the `RhythmJumper-Linux` directory. 
+
+Install the following packages:
+
+Fedora 35: `sudo dnf install -y git monodevelop mono-complete mono-basic` (mono-basic may be optional, but it's what I had installed)
+
+[Make sure you copy the **RhythmJumper-Linux** folder to the same project folder specified under Preferences in MonoDevelop.](https://stackoverflow.com/a/50050601) It uses the Gtk# 2.0 framework.
+
+Then click the Play button on the top-left to run the game!
+
+# Project info
 
 ### CURRENT VERSION:
-v1.0 R2 (January 2015, easter egg hints updated in June 2016)
+Linux: v0.1 proof-of-concept/alpha (5/26/2022)
 
-### MADE PUBLIC FOR CONTRIBUTORS:
-January 13, 2015
+**Note: only the main menu screen (and a button -- try to figure it out 😉) works. Exit by clicking the X button on the top-right.**
+
+Windows: v1.0.1 (minor fixes, 5/26/2022)
 
 ### TO COLLABORATE:
 Pull requests are welcome on this repository.
 
-====
+--------------------
+
 # FAQ
 
 ## What is this game?
 
-This is a rhythm-based game where you jump over obstacles in time to 3 selected songs.
+This is a rhythm-based game where you jump over obstacles in time to 2... rhythmic... songs.
 
 The idea of the game is based off of Geometry Dash.
 

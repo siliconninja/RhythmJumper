@@ -22,7 +22,7 @@ Namespace My.Resources
     '''<summary>
     '''  A strongly-typed resource class, for looking up localized strings, etc.
     '''</summary>
-    <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0"),  _
+    <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0"),  _
      Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
      Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute(),  _
      Global.Microsoft.VisualBasic.HideModuleNameAttribute()>  _
@@ -110,6 +110,30 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to NOTE (PLEASE READ THE FOLLOWING TEXT AS IT APPLIES TO YOUR USE OF SPECIFIC FILES FOUND IN THIS REPOSITORY THAT HAVE BEEN REDISTRIBUTED FROM OTHER SOURCES):
+        '''
+        '''The following license (Mozilla Public License Version 2.0) applies to all files in this repository except for the following: https://github.com/siliconninja/RhythmJumper/blob/master/RhythmJumper/RhythmJumper/Resources/TimeLeap_EZ.wav (referred to as &quot;TimeLeap_EZ.wav&quot;), https://github.com/siliconninja/RhythmJumper/blob/master/RhythmJumper/RhythmJumper/Re [rest of string was truncated]&quot;;.
+        '''</summary>
+        Friend ReadOnly Property LICENSE() As String
+            Get
+                Return ResourceManager.GetString("LICENSE", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to NOTE (PLEASE READ THE FOLLOWING TEXT AS IT APPLIES TO YOUR USE OF SPECIFIC FILES FOUND IN THIS REPOSITORY THAT HAVE BEEN REDISTRIBUTED FROM OTHER SOURCES):
+        '''
+        '''The following license (Mozilla Public License Version 2.0) applies to all files in this repository except for the following:
+        '''https://github.com/siliconninja/RhythmJumper/blob/master/RhythmJumper/RhythmJumper/Resources/FinalBattle_INT-2.wav (referred to as &quot;FinalBattle_INT-2.wav&quot;),
+        '''and https://github.com/siliconninja/RhythmJumper/blob/master/RhythmJumper [rest of string was truncated]&quot;;.
+        '''</summary>
+        Friend ReadOnly Property LICENSE_SONGS() As String
+            Get
+                Return ResourceManager.GetString("LICENSE_SONGS", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
         Friend ReadOnly Property RhythmJumper_64BitIcon() As System.Drawing.Bitmap
@@ -156,15 +180,6 @@ Namespace My.Resources
             Get
                 Dim obj As Object = ResourceManager.GetObject("RJ_Person", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        '''</summary>
-        Friend ReadOnly Property TimeLeap_EZ() As System.IO.UnmanagedMemoryStream
-            Get
-                Return ResourceManager.GetStream("TimeLeap_EZ", resourceCulture)
             End Get
         End Property
     End Module

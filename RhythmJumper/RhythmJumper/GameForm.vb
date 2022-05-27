@@ -72,22 +72,9 @@
         ' http://stackoverflow.com/questions/10663193/handling-keycode-keychar-events-in-windows-form-textbox-control
         ' http://vbcity.com/forums/t/89334.aspx
 
-        ' CTRL+K, CTRL+C - comment multiple lines
-        'If e.KeyCode = Keys.J Then
-        '    ' jump test
-        '    jumpTimer.Start()
-        '    'MessageBox.Show("it works")
-        '    If intJumpStep = 12 Then
-        '        intJumpStep = 0
-        '    End If
-        '    ' create a new obstacle
-        '    createNewObstacle(510, 120)
-        '    'PictureBox2.Imag()
-        'End If
         If e.KeyCode = Keys.Space Then
             ' jump test
             jumpTimer.Start()
-            'MessageBox.Show("it works")
             If intJumpStep = 12 Then
                 intJumpStep = 0
             End If
@@ -227,7 +214,7 @@
                     My.Computer.Audio.Stop()
                     Select Case intDifficulty
                         Case 1
-                            My.Computer.Audio.Play(My.Resources.TimeLeap_EZ, AudioPlayMode.Background)
+                            'My.Computer.Audio.Play(My.Resources.TimeLeap_EZ, AudioPlayMode.Background)
                         Case 2
                             My.Computer.Audio.Play(My.Resources.FinalBattle_INT, AudioPlayMode.Background)
                             ' HARD MODE... OH NO.
@@ -267,7 +254,7 @@
         ' !! Don't just add to resources folder, go to my project!!
         Select Case intDifficulty
             Case 1
-                My.Computer.Audio.Play(My.Resources.TimeLeap_EZ, AudioPlayMode.Background)
+                'My.Computer.Audio.Play(My.Resources.TimeLeap_EZ, AudioPlayMode.Background)
                 ' have brush remain its blue color
             Case 2
                 My.Computer.Audio.Play(My.Resources.FinalBattle_INT, AudioPlayMode.Background)
