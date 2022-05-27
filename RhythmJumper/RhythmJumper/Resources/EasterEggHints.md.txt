@@ -18,7 +18,7 @@ The app doesn't give you a good hint on purpose. Well, glad you came here!
   The opposite of Key #1.
   
   - Key #3
-  This game did not use the following programming language or platform...
+  The Windows version of this game did not use the following programming language or platform...*
 
     w. Visual Basic
 
@@ -28,6 +28,9 @@ The app doesn't give you a good hint on purpose. Well, glad you came here!
     
     n. The Windows OS
     
+*Psst... it's 2022! Go download the Linux version. Download it!
+(The Linux version *DID* use this programming language or platform.)
+
   - Key #4
   Solve this equation.
   

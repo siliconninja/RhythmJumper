@@ -36,10 +36,13 @@ Partial Class InitialForm
         Me.btnAbout = New System.Windows.Forms.Button()
         Me.btnEasterEggs = New System.Windows.Forms.Button()
         Me.lblEasterEggText = New System.Windows.Forms.Label()
-        Me.txtEasterEggCode = New System.Windows.Forms.TextBox()
         Me.lblCodeEnterMessage = New System.Windows.Forms.Label()
         Me.pictPlayer = New System.Windows.Forms.PictureBox()
         Me.pictFakeBgd = New System.Windows.Forms.PictureBox()
+        Me.btnLicenseInfo = New System.Windows.Forms.Button()
+        Me.btnSongLicenseInfo = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.txtEasterEggCode = New System.Windows.Forms.TextBox()
         Me.GroupBox1.SuspendLayout()
         CType(Me.pictPlayer, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pictFakeBgd, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -50,10 +53,9 @@ Partial Class InitialForm
         Me.lblGameName.AutoSize = True
         Me.lblGameName.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblGameName.ForeColor = System.Drawing.Color.White
-        Me.lblGameName.Location = New System.Drawing.Point(234, 15)
-        Me.lblGameName.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lblGameName.Location = New System.Drawing.Point(312, 5)
         Me.lblGameName.Name = "lblGameName"
-        Me.lblGameName.Size = New System.Drawing.Size(143, 24)
+        Me.lblGameName.Size = New System.Drawing.Size(180, 29)
         Me.lblGameName.TabIndex = 0
         Me.lblGameName.Text = "Rhythm Jumper"
         '
@@ -61,10 +63,10 @@ Partial Class InitialForm
         '
         Me.btnStart.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.btnStart.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnStart.Location = New System.Drawing.Point(26, 322)
-        Me.btnStart.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnStart.Location = New System.Drawing.Point(35, 396)
+        Me.btnStart.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnStart.Name = "btnStart"
-        Me.btnStart.Size = New System.Drawing.Size(112, 49)
+        Me.btnStart.Size = New System.Drawing.Size(149, 60)
         Me.btnStart.TabIndex = 5
         Me.btnStart.Text = "Start Game"
         Me.btnStart.UseVisualStyleBackColor = False
@@ -73,10 +75,10 @@ Partial Class InitialForm
         '
         Me.btnExit.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.btnExit.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnExit.Location = New System.Drawing.Point(498, 322)
-        Me.btnExit.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnExit.Location = New System.Drawing.Point(664, 396)
+        Me.btnExit.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(112, 49)
+        Me.btnExit.Size = New System.Drawing.Size(149, 60)
         Me.btnExit.TabIndex = 7
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = False
@@ -87,11 +89,11 @@ Partial Class InitialForm
         Me.GroupBox1.Controls.Add(Me.radNormal)
         Me.GroupBox1.Controls.Add(Me.radEasy)
         Me.GroupBox1.ForeColor = System.Drawing.Color.White
-        Me.GroupBox1.Location = New System.Drawing.Point(16, 105)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Location = New System.Drawing.Point(21, 129)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.GroupBox1.Size = New System.Drawing.Size(122, 88)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.GroupBox1.Size = New System.Drawing.Size(163, 108)
         Me.GroupBox1.TabIndex = 6
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Choose"
@@ -99,10 +101,10 @@ Partial Class InitialForm
         'radHard
         '
         Me.radHard.AutoSize = True
-        Me.radHard.Location = New System.Drawing.Point(10, 61)
-        Me.radHard.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.radHard.Location = New System.Drawing.Point(13, 75)
+        Me.radHard.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.radHard.Name = "radHard"
-        Me.radHard.Size = New System.Drawing.Size(78, 17)
+        Me.radHard.Size = New System.Drawing.Size(96, 20)
         Me.radHard.TabIndex = 4
         Me.radHard.Text = "Hard Mode"
         Me.radHard.UseVisualStyleBackColor = True
@@ -110,10 +112,10 @@ Partial Class InitialForm
         'radNormal
         '
         Me.radNormal.AutoSize = True
-        Me.radNormal.Location = New System.Drawing.Point(10, 39)
-        Me.radNormal.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.radNormal.Location = New System.Drawing.Point(13, 48)
+        Me.radNormal.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.radNormal.Name = "radNormal"
-        Me.radNormal.Size = New System.Drawing.Size(88, 17)
+        Me.radNormal.Size = New System.Drawing.Size(110, 20)
         Me.radNormal.TabIndex = 3
         Me.radNormal.Text = "Normal Mode"
         Me.radNormal.UseVisualStyleBackColor = True
@@ -122,10 +124,10 @@ Partial Class InitialForm
         '
         Me.radEasy.AutoSize = True
         Me.radEasy.Checked = True
-        Me.radEasy.Location = New System.Drawing.Point(10, 17)
-        Me.radEasy.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.radEasy.Location = New System.Drawing.Point(13, 21)
+        Me.radEasy.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.radEasy.Name = "radEasy"
-        Me.radEasy.Size = New System.Drawing.Size(78, 17)
+        Me.radEasy.Size = New System.Drawing.Size(97, 20)
         Me.radEasy.TabIndex = 2
         Me.radEasy.TabStop = True
         Me.radEasy.Text = "Easy Mode"
@@ -136,10 +138,9 @@ Partial Class InitialForm
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(494, 55)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label2.Location = New System.Drawing.Point(659, 68)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(123, 26)
+        Me.Label2.Size = New System.Drawing.Size(159, 32)
         Me.Label2.TabIndex = 7
         Me.Label2.Text = "Instructions"
         '
@@ -147,10 +148,9 @@ Partial Class InitialForm
         '
         Me.Label3.AutoSize = True
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(496, 95)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label3.Location = New System.Drawing.Point(661, 117)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(152, 117)
+        Me.Label3.Size = New System.Drawing.Size(186, 144)
         Me.Label3.TabIndex = 8
         Me.Label3.Text = "SPACE to jump." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Press Ctrl+E while in-game" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "to quit game." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "If you land on an ob" &
     "stacle, you" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "have to start over." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Some obstacles are tricks" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "and don't go all " &
@@ -160,10 +160,10 @@ Partial Class InitialForm
         '
         Me.btnHighScores.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.btnHighScores.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnHighScores.Location = New System.Drawing.Point(268, 322)
-        Me.btnHighScores.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnHighScores.Location = New System.Drawing.Point(357, 396)
+        Me.btnHighScores.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnHighScores.Name = "btnHighScores"
-        Me.btnHighScores.Size = New System.Drawing.Size(116, 49)
+        Me.btnHighScores.Size = New System.Drawing.Size(155, 60)
         Me.btnHighScores.TabIndex = 6
         Me.btnHighScores.Text = "High Scores"
         Me.btnHighScores.UseVisualStyleBackColor = False
@@ -171,10 +171,10 @@ Partial Class InitialForm
         'btnAbout
         '
         Me.btnAbout.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.btnAbout.Location = New System.Drawing.Point(157, 55)
-        Me.btnAbout.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnAbout.Location = New System.Drawing.Point(209, 68)
+        Me.btnAbout.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnAbout.Name = "btnAbout"
-        Me.btnAbout.Size = New System.Drawing.Size(56, 19)
+        Me.btnAbout.Size = New System.Drawing.Size(75, 23)
         Me.btnAbout.TabIndex = 0
         Me.btnAbout.Text = "About"
         Me.btnAbout.UseVisualStyleBackColor = False
@@ -182,10 +182,10 @@ Partial Class InitialForm
         'btnEasterEggs
         '
         Me.btnEasterEggs.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.btnEasterEggs.Location = New System.Drawing.Point(384, 55)
-        Me.btnEasterEggs.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btnEasterEggs.Location = New System.Drawing.Point(512, 68)
+        Me.btnEasterEggs.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnEasterEggs.Name = "btnEasterEggs"
-        Me.btnEasterEggs.Size = New System.Drawing.Size(94, 19)
+        Me.btnEasterEggs.Size = New System.Drawing.Size(125, 23)
         Me.btnEasterEggs.TabIndex = 9
         Me.btnEasterEggs.Text = "Easter Egg Hints"
         Me.btnEasterEggs.UseVisualStyleBackColor = False
@@ -194,40 +194,30 @@ Partial Class InitialForm
         '
         Me.lblEasterEggText.AutoSize = True
         Me.lblEasterEggText.ForeColor = System.Drawing.Color.White
-        Me.lblEasterEggText.Location = New System.Drawing.Point(24, 206)
-        Me.lblEasterEggText.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lblEasterEggText.Location = New System.Drawing.Point(32, 254)
         Me.lblEasterEggText.Name = "lblEasterEggText"
-        Me.lblEasterEggText.Size = New System.Drawing.Size(83, 13)
+        Me.lblEasterEggText.Size = New System.Drawing.Size(101, 16)
         Me.lblEasterEggText.TabIndex = 11
         Me.lblEasterEggText.Text = "Easter Egg: ???"
-        '
-        'txtEasterEggCode
-        '
-        Me.txtEasterEggCode.Location = New System.Drawing.Point(519, 255)
-        Me.txtEasterEggCode.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.txtEasterEggCode.Name = "txtEasterEggCode"
-        Me.txtEasterEggCode.Size = New System.Drawing.Size(128, 20)
-        Me.txtEasterEggCode.TabIndex = 8
         '
         'lblCodeEnterMessage
         '
         Me.lblCodeEnterMessage.AutoSize = True
         Me.lblCodeEnterMessage.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblCodeEnterMessage.ForeColor = System.Drawing.Color.White
-        Me.lblCodeEnterMessage.Location = New System.Drawing.Point(551, 239)
-        Me.lblCodeEnterMessage.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lblCodeEnterMessage.Location = New System.Drawing.Point(729, 302)
         Me.lblCodeEnterMessage.Name = "lblCodeEnterMessage"
-        Me.lblCodeEnterMessage.Size = New System.Drawing.Size(70, 13)
+        Me.lblCodeEnterMessage.Size = New System.Drawing.Size(84, 16)
         Me.lblCodeEnterMessage.TabIndex = 14
         Me.lblCodeEnterMessage.Text = "Enter Code"
         '
         'pictPlayer
         '
         Me.pictPlayer.Image = Global.RhythmJumper.My.Resources.Resources.RJ_Person
-        Me.pictPlayer.Location = New System.Drawing.Point(296, 205)
-        Me.pictPlayer.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pictPlayer.Location = New System.Drawing.Point(395, 252)
+        Me.pictPlayer.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.pictPlayer.Name = "pictPlayer"
-        Me.pictPlayer.Size = New System.Drawing.Size(37, 81)
+        Me.pictPlayer.Size = New System.Drawing.Size(49, 100)
         Me.pictPlayer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pictPlayer.TabIndex = 9
         Me.pictPlayer.TabStop = False
@@ -235,19 +225,63 @@ Partial Class InitialForm
         'pictFakeBgd
         '
         Me.pictFakeBgd.Image = Global.RhythmJumper.My.Resources.Resources.RhythmJumper_Background_MainMenu
-        Me.pictFakeBgd.Location = New System.Drawing.Point(116, 95)
-        Me.pictFakeBgd.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.pictFakeBgd.Location = New System.Drawing.Point(155, 117)
+        Me.pictFakeBgd.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.pictFakeBgd.Name = "pictFakeBgd"
-        Me.pictFakeBgd.Size = New System.Drawing.Size(396, 191)
+        Me.pictFakeBgd.Size = New System.Drawing.Size(528, 235)
         Me.pictFakeBgd.TabIndex = 10
         Me.pictFakeBgd.TabStop = False
         '
+        'btnLicenseInfo
+        '
+        Me.btnLicenseInfo.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.btnLicenseInfo.Location = New System.Drawing.Point(342, 59)
+        Me.btnLicenseInfo.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.btnLicenseInfo.Name = "btnLicenseInfo"
+        Me.btnLicenseInfo.Size = New System.Drawing.Size(102, 23)
+        Me.btnLicenseInfo.TabIndex = 15
+        Me.btnLicenseInfo.Text = "License Info"
+        Me.btnLicenseInfo.UseVisualStyleBackColor = False
+        '
+        'btnSongLicenseInfo
+        '
+        Me.btnSongLicenseInfo.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.btnSongLicenseInfo.Location = New System.Drawing.Point(325, 88)
+        Me.btnSongLicenseInfo.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.btnSongLicenseInfo.Name = "btnSongLicenseInfo"
+        Me.btnSongLicenseInfo.Size = New System.Drawing.Size(144, 23)
+        Me.btnSongLicenseInfo.TabIndex = 16
+        Me.btnSongLicenseInfo.Text = "Song License Info"
+        Me.btnSongLicenseInfo.UseVisualStyleBackColor = False
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(321, 33)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(155, 24)
+        Me.Label1.TabIndex = 17
+        Me.Label1.Text = "v1.0.1 - 5/26/2022"
+        '
+        'txtEasterEggCode
+        '
+        Me.txtEasterEggCode.Location = New System.Drawing.Point(689, 330)
+        Me.txtEasterEggCode.Name = "txtEasterEggCode"
+        Me.txtEasterEggCode.Size = New System.Drawing.Size(170, 22)
+        Me.txtEasterEggCode.TabIndex = 18
+        '
         'InitialForm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
-        Me.ClientSize = New System.Drawing.Size(664, 380)
+        Me.ClientSize = New System.Drawing.Size(885, 468)
+        Me.Controls.Add(Me.txtEasterEggCode)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.btnSongLicenseInfo)
+        Me.Controls.Add(Me.btnLicenseInfo)
         Me.Controls.Add(Me.lblCodeEnterMessage)
         Me.Controls.Add(Me.lblEasterEggText)
         Me.Controls.Add(Me.btnEasterEggs)
@@ -261,10 +295,9 @@ Partial Class InitialForm
         Me.Controls.Add(Me.btnStart)
         Me.Controls.Add(Me.lblGameName)
         Me.Controls.Add(Me.pictFakeBgd)
-        Me.Controls.Add(Me.txtEasterEggCode)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.MaximizeBox = False
         Me.Name = "InitialForm"
         Me.Text = "Main Menu"
@@ -291,7 +324,9 @@ Partial Class InitialForm
     Friend WithEvents pictFakeBgd As System.Windows.Forms.PictureBox
     Friend WithEvents btnEasterEggs As System.Windows.Forms.Button
     Friend WithEvents lblEasterEggText As System.Windows.Forms.Label
-    Friend WithEvents txtEasterEggCode As System.Windows.Forms.TextBox
     Friend WithEvents lblCodeEnterMessage As System.Windows.Forms.Label
-
+    Friend WithEvents btnLicenseInfo As Button
+    Friend WithEvents btnSongLicenseInfo As Button
+    Friend WithEvents Label1 As Label
+    Friend WithEvents txtEasterEggCode As TextBox
 End Class
